@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthBooster - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg" alt="HealthBooster Logo">
+            <h1>HealthBooster</h1>
+        </div>
+    </header>
+    <main class="login-page">
+        <section class="login-section">
+            <h2>Login</h2>
+            <button onclick="loginWithGoogle()">Login with Google</button>
+            <button onclick="loginWithFacebook()">Login with Facebook</button>
+            <p>or</p>
+            <form action="#" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="register.html">Register here</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 HealthBooster. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
